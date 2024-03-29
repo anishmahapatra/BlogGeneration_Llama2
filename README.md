@@ -30,3 +30,5 @@ Once the application is running, you can:
 ## Note
 
 This application requires the `langchain` and `streamlit` packages to be installed.
+
+![image](https://github.com/anishmahapatra/BlogGeneration_Llama2/assets/15380319/0d3a32ca-b6ef-4ae5-8b7f-a550d74cfab5)
