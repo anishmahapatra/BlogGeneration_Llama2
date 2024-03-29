@@ -1,0 +1,10 @@
+includedir=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/include
+libdir=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/lib
+
+Name: aws-cpp-sdk-identity-management
+Description: 
+Version: 1.10.55
+Cflags: -I${includedir} -fno-exceptions -std=c++11
+Libs: -L${libdir} -laws-cpp-sdk-identity-management 
+Libs.private: 
+Requires:  aws-cpp-sdk-cognito-identity aws-cpp-sdk-sts aws-cpp-sdk-core

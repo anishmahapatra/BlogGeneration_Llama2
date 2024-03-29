@@ -1,0 +1,13 @@
+prefix=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2
+exec_prefix=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2
+libdir=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/lib
+sharedlibdir=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/lib
+includedir=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

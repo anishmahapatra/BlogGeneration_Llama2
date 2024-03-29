@@ -1,0 +1,13 @@
+prefix=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2
+exec_prefix=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2
+libdir=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/lib
+includedir=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/include
+datarootdir=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/share
+datadir=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/share
+
+Name: oniguruma
+Description: Regular expression library
+Version: 6.9.7
+Requires:
+Libs: -L${libdir} -lonig
+Cflags: -I${includedir}

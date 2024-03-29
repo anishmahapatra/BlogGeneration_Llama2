@@ -1,0 +1,10 @@
+prefix=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2
+exec_prefix=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2
+libdir=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/lib
+includedir=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/include
+
+Name: libavif
+Description: Library for encoding and decoding .avif files
+Version: 0.11.1
+Libs: -L${libdir} -lavif
+Cflags: -I${includedir} -DAVIF_DLL

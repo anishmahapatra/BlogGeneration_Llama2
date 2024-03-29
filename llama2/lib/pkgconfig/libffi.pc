@@ -1,0 +1,11 @@
+prefix=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

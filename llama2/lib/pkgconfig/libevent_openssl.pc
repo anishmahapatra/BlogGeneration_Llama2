@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2
+exec_prefix=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2
+libdir=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/lib
+includedir=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/include
+
+Name: libevent_openssl
+Description: libevent_openssl adds openssl-based TLS support to libevent
+Version: 2.1.12
+Requires: libevent
+Conflicts:
+Libs: -L${libdir} -levent_openssl
+Libs.private:   -L/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/lib/libssl.dylib -L/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/lib/libcrypto.dylib
+Cflags: -I${includedir} 
+

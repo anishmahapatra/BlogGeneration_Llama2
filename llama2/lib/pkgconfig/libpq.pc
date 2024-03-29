@@ -1,0 +1,9 @@
+Name: libpq
+Description: PostgreSQL libpq library
+Url: http://www.postgresql.org/
+Version: 12.17
+Requires: 
+Requires.private: 
+Cflags: -I/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/include
+Libs: -L/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/lib -lpq
+Libs.private: -L/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/lib -lpgcommon -lpgport -lssl -lcrypto -lgssapi_krb5 -lm

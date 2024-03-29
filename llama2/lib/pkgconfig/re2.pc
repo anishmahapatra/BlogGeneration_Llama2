@@ -1,0 +1,8 @@
+includedir=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/include
+libdir=/Users/anishmahapatra/Work/AI Projects/BlogGeneration_Llama2/llama2/lib
+
+Name: re2
+Description: RE2 is a fast, safe, thread-friendly regular expression engine.
+Version: 0.0.0
+Cflags: -pthread -I${includedir}
+Libs: -pthread -L${libdir} -lre2
